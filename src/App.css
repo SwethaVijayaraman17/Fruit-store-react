@@ -1,0 +1,79 @@
+body {
+  font-family: Sans-serif;
+}
+
+#projectLayout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 70%;
+  margin: auto;
+}
+.projectDiv {
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.555);
+}
+#add_project {
+  margin-left: 15%;
+}
+
+button {
+  background-color: rgba(39, 218, 164, 0.596);
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2vw;
+  color: rgb(3, 82, 55);
+  cursor: pointer;
+  margin-right: 30px;
+}
+h1 {
+  color: rgb(12, 139, 118);
+  text-align: center;
+}
+input,
+label {
+  display: block;
+}
+input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 1.15vw;
+  padding: 5px;
+}
+label {
+  flex: 0.6;
+  margin-top: 10px;
+}
+
+#projectForm {
+  padding: 25px;
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.555);
+  width: 40%;
+  margin: auto;
+}
+.formDiv > div {
+  flex: 1;
+}
+h3 {
+  color: rgb(13, 97, 146);
+}
+.formDiv > div > div {
+  padding: 5px;
+  flex: 1;
+  color: rgb(13, 97, 146);
+}
+.formDiv > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+#backBtn{
+  margin-left: 28vw;
+  margin-bottom: 20px;
+}
+#addMember{
+  margin-top: 10px;
+}
